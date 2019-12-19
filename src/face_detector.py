@@ -16,7 +16,8 @@ cameraCapture = cv2.VideoCapture(0)
 cv2.namedWindow("Screen")
 cv2.setMouseCallback("Screen",onMouse)
 
-while cv2.waitKey(1) == -1 and not clicked:
+sucess,frame = cameraCapture.read()
+while sucess and cv2.waitKey(1) == -1 and not clicked:
     sucess,frame = cameraCapture.read()
     input_img = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     img_h, img_w, _ = np.shape(input_img)
