@@ -27,14 +27,14 @@ import matplotlib.pyplot as plt
 # In[44]:
 
 
-label_map = {'ANGER': 0,
- 'CONTEMPT': 1,
- 'DISGUST': 2,
- 'FEAR': 3,
- 'HAPPINESS': 4,
- 'NEUTRAL': 5,
- 'SADNESS': 6,
- 'SURPRISE': 7}
+label_map = {'ANGRY FACE': 0,
+ 'CONTEMPT FACE': 1,
+ 'DISGUST FACE': 2,
+ 'FEARED FACE': 3,
+ 'HAPPY FACE': 4,
+ 'NEUTRAL FACE': 5,
+ 'SAD FACE': 6,
+ 'SURPRISED FACE': 7}
 
 
 # In[4]:
