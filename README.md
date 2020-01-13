@@ -24,7 +24,7 @@ python mood_detector.py
 
 ## Working Output 
 Output1: ![Sample output](output/Application_screenshot.png)
-Output2: ![Sample output](output/Application_screenshot (2).png)
+Output2: ![Sample output](output/Application_screenshot2.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
